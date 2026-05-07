@@ -1,0 +1,13 @@
+[project]
+name = "sattransformersma"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.4.4",
+    "python-sat>=0.1.8.dev15",
+    "torch>=2.11.0",
+    "torch-geometric>=2.7.0",
+    "tqdm>=4.67.3",
+]
