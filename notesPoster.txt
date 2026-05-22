@@ -1,0 +1,9 @@
+Le poster doit être déposé sous forme d'un fichier nommé nomEtudiant.prenomEtudiant.pdf 
+sur cette page Moodle (la section de rendu sera ouverte courant mai). 
+
+Le poster doit présenter 
+    le contexte de la mission (entreprise, domaine d’activité, ...), 
+    les objectif(s) du stage, 
+    le travail réalisé. 
+
+Il doit doit permettre en quelques secondes de se faire une idée du stage.

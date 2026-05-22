@@ -51,7 +51,7 @@
             </div>
             <div class="author-card">
                 <h3>Tutrice</h3>
-                <p>Yu LI / Corinne Lucet</p>
+                <p>Yu LI, Corinne LUCET</p>
             </div>
             <div class="author-card">
                 <h3>Entreprise d’accueil</h3>
@@ -60,527 +60,482 @@
         </div>
     </header>
 
-
     <!-- ===================================================== -->
     <!-- MAIN GRID -->
     <!-- ===================================================== -->
 
     <main class="content-grid">
         <!-- ===================================================== -->
-        <!-- INTRODUCTION -->
+    <!-- INTRODUCTION / CONTEXTE SCIENTIFIQUE -->
+    <!-- ===================================================== -->
+
+    <!-- ===================================================== -->
+<!-- INTRODUCTION / CONTEXTE DU STAGE -->
+<!-- ===================================================== -->
+
+<section class="card card-blue">
+
+    <div class="section-header">
+
+        <div class="section-number">
+            1
+        </div>
+
+        <div>
+            <h3>Contexte du Stage & Objectifs Scientifiques</h3>
+        </div>
+
+    </div>
+
+    <!-- INTRODUCTION -->
+    <div class="content-block">
+
+        <p>
+            Ce projet de stage s’inscrit dans le domaine de 
+            l’<strong>Intelligence Artificielle symbolique</strong> 
+            et de la résolution de problèmes logiques complexes.
+        </p>
+
+        <p>
+            L’objectif principal est d’étudier l’utilisation des 
+            architectures <strong>Transformer</strong> pour la classification 
+            automatique des formules booléennes SAT / UNSAT, puis d’explorer 
+            une amélioration du modèle à travers une approche 
+            <strong>Multi-Agents (SMA)</strong>.
+        </p>
+
+    </div>
+
+    <!-- SAT -->
+    <div class="formula-container">
+        <h4>Problème étudié : SAT (Boolean Satisfiability) (exemple)</h4>
+        <div class="formula">
+            (x₁ ∨ ¬x₂) ∧ (x₂ ∨ x₃)
+        </div>
+    </div>
+
+    <!-- DOMAINES -->
+    <div class="technical-box">
+
+        <h4>Applications du problème SAT</h4>
+
+        <div class="technical-grid">
+
+            <div class="tech-item">
+                <span class="tech-title">Vérification formelle</span>
+                <span>
+                    Validation de circuits électroniques et détection d’erreurs matérielles.
+                </span>
+            </div>
+
+            <div class="tech-item">
+                <span class="tech-title">Optimisation</span>
+                <span>
+                    Résolution de problèmes combinatoires complexes et planification.
+                </span>
+            </div>
+
+            <div class="tech-item">
+                <span class="tech-title">Cybersécurité</span>
+                <span>
+                    Analyse logique, cryptographie et détection de vulnérabilités.
+                </span>
+            </div>
+
+            <div class="tech-item">
+                <span class="tech-title">IA Symbolique</span>
+                <span>
+                    Raisonnement automatique et systèmes intelligents.
+                </span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- OBJECTIFS PRINCIPAUX -->
+    <div class="technical-box technical-box-danger">
+
+        <h4>Objectifs principaux du stage</h4>
+
+        <div class="technical-grid">
+
+            <div class="tech-item">
+                <span class="tech-title">Étude du SAT</span>
+                <span>
+                    Comprendre le problème SAT et les mécanismes des solveurs logiques.
+                </span>
+            </div>
+
+            <div class="tech-item">
+                <span class="tech-title">Architecture Transformer</span>
+                <span>
+                    Implémenter un modèle Transformer capable de classifier des formules CNF.
+                </span>
+            </div>
+
+            <div class="tech-item">
+                <span class="tech-title">Deep Learning</span>
+                <span>
+                    Analyser l’apprentissage des dépendances logiques via le mécanisme de Self-Attention.
+                </span>
+            </div>
+
+            <div class="tech-item">
+                <span class="tech-title">Approche Multi-Agents</span>
+                <span>
+                    Étudier l’amélioration des performances via des systèmes multi-agents coopératifs.
+                </span>
+            </div>
+        </div>
+    </div>
+</section>
+
         <!-- ===================================================== -->
-        <section class="card card-blue">
-            <div class="section-header">
-                <div class="section-number">
-                    1
-                </div>
-                <div>
-                    <h3>Contexte Scientifique</h3>
-                    <p>Intelligence artificielle et satisfiabilité booléenne</p>
-                </div>
-            </div>
-            <div class="content-block">
-                <p>
-                    Le problème SAT (Boolean Satisfiability Problem)
-                    consiste à déterminer si une formule logique booléenne
-                    peut être satisfaite par une affectation de variables.
-                </p>
-                <p>
-                    SAT est un problème fondamental de la théorie de la complexité,
-                    largement utilisé dans :
-                </p>
-            </div>
-            <div class="highlight-box">
-                <ul>
-                    <li>Vérification formelle de circuits électroniques</li>
-                    <li>Optimisation combinatoire</li>
-                    <li>Planification automatique</li>
-                    <li>Cybersécurité et cryptographie</li>
-                    <li>Intelligence artificielle symbolique</li>
-                </ul>
-            </div>
-            <div class="formula-container">
-                <h4>Exemple de formule CNF</h4>
-                <div class="formula">
-                    (x1 V ¬x2) ∧ (x2 V x3)
-                </div>
-            </div>
+<!-- 2. ARCHITECTURE DU MODÈLE TRANSFORMER -->
+<!-- ===================================================== -->
+
+<section class="card card-green">
+
+    <div class="section-header">
+        <div class="section-number green-number">2</div>
+        <div>
+            <h3>Architecture du modèle Transformer</h3>
+        </div>
+    </div>
+
+    <!-- ARCHITECTURE -->
+    <div class="architecture-layout">
+
+        <!-- IMAGE -->
+
+        <div class="architecture-left">
+
+            <img
+                src="img/modele.jpg"
+                alt="Architecture Transformer SAT"
+                class="architecture-image"
+            >
+
+        </div>
+
+        <!-- PARAMÈTRES -->
+
+        <div class="architecture-right">
 
             <div class="technical-box">
-                <h4>Objectifs du projet</h4>
-                <div class="technical-grid">
-                    <div class="tech-item">
-                        <span class="tech-title">1</span>
-                        <span>Transformer des formules CNF en séquences de tokens</span>
-                    </div>
-                    <div class="tech-item">
-                        <span class="tech-title">2</span>
-                        <span>Apprendre les dépendances logiques via Self-Attention</span>
-                    </div>
-                    <div class="tech-item">
-                        <span class="tech-title">3</span>
-                        <span>Classifier SAT / UNSAT automatiquement</span>
-                    </div>
 
-                    <div class="tech-item">
-                        <span class="tech-title">4</span>
-                        <span>Visualiser les cartes d’attention du Transformer</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ===================================================== -->
-        <!-- DATASET -->
-        <!-- ===================================================== -->
-
-        <section class="card card-orange">
-
-            <div class="section-header">
-
-                <div class="section-number orange-number">
-                    2
-                </div>
-
-                <div>
-                    <h3>Construction du Dataset</h3>
-                    <p>Prétraitement des formules SAT</p>
-                </div>
-
-            </div>
-
-            <div class="content-block">
-
-                <p>
-
-                    Les instances SAT sont chargées depuis des fichiers
-                    au format DIMACS (.cnf) provenant de SATLIB.
-
-                </p>
-
-            </div>
-
-            <div class="results-container">
-
-                <div class="result-card">
-                    <h2>2000</h2>
-                    <p>Instances SAT</p>
-                </div>
-
-                <div class="result-card">
-                    <h2>500</h2>
-                    <p>Longueur maximale</p>
-                </div>
-
-            </div>
-
-            <div class="pipeline-container">
-                <div class="pipeline-step">
-                    <h4>Chargement</h4>
-                    <p>
-                        Lecture des fichiers .cnf et extraction
-                        des clauses booléennes.
-                    </p>
-                </div>
-                <div class="pipeline-arrow">→</div>
-                <div class="pipeline-step">
-                    <h4>Tokenisation</h4>
-                    <p>
-                        Conversion des variables et opérateurs
-                        en tokens exploitables.
-                    </p>
-                </div>
-                <div class="pipeline-arrow">→</div>
-                <div class="pipeline-step">
-                    <h4>Padding</h4>
-                    <p>
-                        Uniformisation des tailles de séquences
-                        avec PAD.
-                    </p>
-                </div>
-            </div>
-            <div class="technical-box">
-
-                <h4>Vocabulaire utilisé</h4>
-
-                <div class="technical-grid">
-
-                    <div class="tech-item">
-                        <span class="tech-title">PAD</span>
-                        <span>Padding des séquences</span>
-                    </div>
-
-                    <div class="tech-item">
-                        <span class="tech-title">AND</span>
-                        <span>Conjonction logique</span>
-                    </div>
-
-                    <div class="tech-item">
-                        <span class="tech-title">OR</span>
-                        <span>Disjonction logique</span>
-                    </div>
-
-                    <div class="tech-item">
-                        <span class="tech-title">NOT</span>
-                        <span>Négation logique</span>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- ===================================================== -->
-        <!-- ARCHITECTURE -->
-        <!-- ===================================================== -->
-
-        <section class="card card-green">
-            <div class="section-header">
-                <div class="section-number green-number">
-                    2
-                </div>
-                <div>
-                    <h3>Modèle Transformer</h3>
-                </div>
-            </div>
-            <div class="content-block">
-                <p>
-                    Le modèle est inspiré de l'article
-                    « Attention Is All You Need » et utilise
-                    un mécanisme de Multi-Head Self-Attention.
-                </p>
-            </div>
-
-            <div class="architecture-grid">
-                <div class="arch-card">
-                    <h4>Embedding Layer</h4>
-                    <p>
-                        Représentation dense des variables logiques
-                        dans un espace vectoriel de dimension 64.
-                    </p>
-                </div>
-                <div class="arch-card">
-                    <h4>Positional Encoding</h4>
-                    <p>
-                        Ajout d'informations de position afin
-                        de conserver l'ordre des clauses.
-                    </p>
-                </div>
-                <div class="arch-card">
-                    <h4>Multi-Head Attention</h4>
-                    <p>
-                        Calcul des interactions entre variables
-                        grâce aux matrices Query, Key et Value.
-                    </p>
-                </div>
-                <div class="arch-card">
-                    <h4>Feed Forward</h4>
-                    <p>
-                        Transformation non linéaire des représentations
-                        apprises par le modèle.
-                    </p>
-                </div>
-
-                <div class="arch-card">
-                    <h4>Classification</h4>
-                    <p>
-                        Couche finale produisant la probabilité SAT / UNSAT.
-                    </p>
-                </div>
-            </div>
-
-            <div class="formula-container">
-                <h4>Formule du Self-Attention</h4>
-                <div class="formula">
-                    Attention(Q,K,V) = softmax(QKᵀ / √dk)V
-                </div>
-            </div>
-
-            <div class="technical-box">
                 <h4>Paramètres du modèle</h4>
+
                 <div class="technical-grid">
+
+                    <div class="tech-item">
+                        <span class="tech-title">Architecture</span>
+                        <span>Transformer Encoder</span>
+                    </div>
+
                     <div class="tech-item">
                         <span class="tech-title">Embedding</span>
                         <span>64 dimensions</span>
                     </div>
-                    <div class="tech-item">
-                        <span class="tech-title">Heads</span>
-                        <span>2 têtes d'attention</span>
-                    </div>
-                    <div class="tech-item">
-                        <span class="tech-title">Optimiseur</span>
-                        <span>Adam</span>
-                    </div>
-                    <div class="tech-item">
-                        <span class="tech-title">Learning Rate</span>
-                        <span>1e-5</span>
-                    </div>
-                    <div class="tech-item">
-                        <span class="tech-title">Loss Function</span>
-                        <span>BCEWithLogitsLoss</span>
-                    </div>
-                    <div class="tech-item">
-                        <span class="tech-title">Epochs</span>
-                        <span>10</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-
-        <!-- ===================================================== -->
-        <!-- TRAINING -->
-        <!-- ===================================================== -->
-
-        <section class="card card-purple">
-
-            <div class="section-header">
-
-                <div class="section-number purple-number">
-                    4
-                </div>
-
-                <div>
-                    <h3>Entraînement et Résultats</h3>
-                    <p>Évaluation du modèle Transformer</p>
-                </div>
-
-            </div>
-
-            <div class="results-container">
-
-                <div class="result-card">
-                    <h2>80%</h2>
-                    <p>Train Set</p>
-                </div>
-
-                <div class="result-card">
-                    <h2>10%</h2>
-                    <p>Validation</p>
-                </div>
-
-                <div class="result-card">
-                    <h2>10%</h2>
-                    <p>Test</p>
-                </div>
-
-            </div>
-
-            <div class="content-block">
-
-                <p>
-
-                    Le modèle est entraîné sur GPU avec PyTorch.
-                    L’apprentissage est stabilisé grâce au clipping
-                    des gradients et à l’early stopping.
-
-                </p>
-
-            </div>
-
-            <div class="highlight-box">
-                <h4>Résultats expérimentaux</h4>
-                <ul>
-                    <li>Apprentissage des relations entre variables logiques</li>
-                    <li>Classification SAT / UNSAT cohérente</li>
-                    <li>Interprétabilité via cartes d’attention</li>
-                    <li>Visualisation des embeddings avec t-SNE</li>
-                    <li>Pipeline complet Deep Learning pour SAT</li>
-                </ul>
-            </div>
-
-            <div class="formula-container">
-
-                <h4>Fonction de perte</h4>
-
-                <div class="formula">
-
-                    BCEWithLogitsLoss(y, ŷ)
-
-                </div>
-
-            </div>
-
-            <div class="technical-box">
-
-                <h4>Techniques importantes</h4>
-
-                <div class="technical-grid">
 
                     <div class="tech-item">
-                        <span class="tech-title">Gradient Clipping</span>
-                        <span>max_norm = 1.0</span>
+                        <span class="tech-title">Blocs Transformer</span>
+                        <span>2 couches</span>
                     </div>
 
                     <div class="tech-item">
-                        <span class="tech-title">Early Stopping</span>
-                        <span>Patience = 3</span>
+                        <span class="tech-title">Multi-Head Attention</span>
+                        <span>2 têtes d’attention</span>
+                    </div>
+
+                    <div class="tech-item">
+                        <span class="tech-title">Feed Forward</span>
+                        <span>256 neurones</span>
                     </div>
 
                     <div class="tech-item">
                         <span class="tech-title">Dropout</span>
-                        <span>Régularisation du modèle</span>
+                        <span>0.05</span>
                     </div>
 
                     <div class="tech-item">
-                        <span class="tech-title">Batch Size</span>
-                        <span>32</span>
+                        <span class="tech-title">Longueur maximale</span>
+                        <span>512 tokens</span>
                     </div>
 
+                    <div class="tech-item">
+                        <span class="tech-title">Pooling</span>
+                        <span>Jeton spécial [CLS]</span>
+                    </div>
+
+                    <div class="tech-item">
+                        <span class="tech-title">Fonction de perte</span>
+                        <span>BCEWithLogitsLoss</span>
+                    </div>
+
+                    <div class="tech-item">
+                        <span class="tech-title">Optimiseur</span>
+                        <span>AdamW</span>
+                    </div>
+
+                    <div class="tech-item">
+                        <span class="tech-title">Taille du modèle</span>
+                        <span>~136k paramètres</span>
+                    </div>
+
+                    <div class="tech-item">
+                        <span class="tech-title">Sortie</span>
+                        <span>Classification SAT / UNSAT</span>
+                    </div>
                 </div>
-
             </div>
+        </div>
+    </div>
 
-        </section>
+</section>
+<!-- ===================================================== -->
+<!-- 3. ENTRAÎNEMENT DU MODÈLE                             -->
+<!-- ===================================================== -->
 
+<section class="card card-orange">
 
-
-        <!-- ===================================================== -->
-        <!-- ANALYSIS -->
-        <!-- ===================================================== -->
-
-        <section class="card card-blue">
-
-            <div class="section-header">
-
-                <div class="section-number">
-                    5
-                </div>
-
-                <div>
-                    <h3>Analyse des Représentations</h3>
-                    <p>Interprétation du Transformer</p>
-                </div>
-
-            </div>
-
-            <div class="content-block">
-
-                <p>
-
-                    Les cartes d’attention montrent quelles variables
-                    logiques sont considérées importantes par le modèle
-                    lors de la prédiction SAT / UNSAT.
-
-                </p>
-
-                <p>
-
-                    Les embeddings projetés avec t-SNE révèlent
-                    des regroupements sémantiques entre opérateurs
-                    et variables booléennes.
-
-                </p>
-
-            </div>
-
-            <div class="highlight-box">
-
-                <h4>Visualisations réalisées</h4>
-
-                <ul>
-
-                    <li>Heatmap Self-Attention</li>
-
-                    <li>Projection t-SNE des embeddings</li>
-
-                    <li>Analyse des tokens importants</li>
-
-                    <li>Probabilités SAT prédites</li>
-
-                </ul>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- ===================================================== -->
-        <!-- CONCLUSION -->
-        <!-- ===================================================== -->
-
-        <section class="card card-green">
-
-            <div class="section-header">
-
-                <div class="section-number green-number">
-                    6
-                </div>
-
-                <div>
-                    <h3>Conclusion et Perspectives</h3>
-                    <p>Améliorations futures</p>
-                </div>
-
-            </div>
-
-            <div class="content-block">
-
-                <p>
-
-                    Ce projet démontre qu’un Transformer peut apprendre
-                    les dépendances structurelles présentes dans des
-                    formules SAT et réaliser une classification pertinente.
-
-                </p>
-
-                <p>
-
-                    L’utilisation du Self-Attention permet une meilleure
-                    interprétabilité des décisions du modèle.
-
-                </p>
-
-            </div>
-
-            <div class="highlight-box">
-
-                <h4>Perspectives futures</h4>
-
-                <ul>
-
-                    <li>Ajout de plusieurs couches Transformer</li>
-
-                    <li>Utilisation de Graph Neural Networks</li>
-
-                    <li>Étude de SAT industriels complexes</li>
-
-                    <li>Optimisation GPU et accélération CUDA</li>
-
-                    <li>Comparaison avec des solveurs SAT classiques</li>
-
-                </ul>
-
-            </div>
-
-        </section>
-
-    </main>
-
-
-
-    <!-- ===================================================== -->
-    <!-- FOOTER -->
-    <!-- ===================================================== -->
-
-    <footer class="footer">
-
+    <div class="section-header">
+        <div class="section-number orange-number">3</div>
         <div>
-            Université de Picardie Jules Verne — Laboratoire MIS
+            <h3>Entraînement et protocole expérimental</h3>
+        </div>
+    </div>
+    <!-- INTRODUCTION -->
+    <div class="content-block">
+
+        <p>
+            <strong>Dataset & Configuration :</strong> 2 000 formules format CNF (1000 SAT / 1000 UNSAT).
+        </p>
+
+        <p>
+            <strong>Framework & Hardware :</strong> <strong>PyTorch</strong> 2 GPU NVIDIA Tesla T4 (Kaggle)
+            <br>
+            <strong>Distribution des données :</strong> <i>Train</i> (80%) : 1600, <i>Validation</i> (10%) : 200, <i>Test</i> (10%) : 200 
+        </p>
+
+        <p>
+            <strong>Protocole de génération :</strong> Instances ciblant exclusivement la <strong>région critique du problème 3-SAT aléatoire</strong>, définie par un ratio clauses/variables critique proche de <strong>α ≈ 4.26</strong>.
+        </p>
+    </div>
+
+    <div class="results-container results-4col">
+
+        <div class="result-card">
+            <h2>2 000</h2>
+            <p>Formules CNF</p>
+            <small>Dataset équilibré SAT / UNSAT</small>
         </div>
 
-        <div>
-            Stage Licence 3 Informatique MIAGE — 2025
+        <div class="result-card">
+            <h2>136k</h2>
+            <p>Paramètres</p>
+            <small>Architecture Transformer Encoder léger</small>
         </div>
 
-    </footer>
+        <div class="result-card">
+            <h2>30</h2>
+            <p>Epochs maximum</p>
+            <small>Contrôle par Early Stopping</small>
+        </div>
 
-</div>
+        <div class="result-card">
+            <h2>AdamW</h2>
+            <p>Optimiseur</p>
+            <small>Learning Rate initial : 3e-4</small>
+        </div>
 
-</body>
-</html>
+    </div>
+
+    <!-- PIPELINE -->
+    <div class="pipeline-container">
+
+        <div class="pipeline-step">
+            <h4>Optimisation</h4>
+            <p>
+                Optimisation réalisée avec <strong>AdamW</strong>, un taux d’apprentissage de <strong>3e-4</strong> et un coefficient de <strong>weight decay (L2) de 1e-4</strong> pour pénaliser les grands poids et limiter le surapprentissage.
+            </p>
+        </div>
+
+        <div class="pipeline-arrow">→</div>
+
+        <div class="pipeline-step">
+            <h4>Stabilisation</h4>
+            <p>
+                Application systématique du <strong>gradient clipping</strong> (seuil <code>max_norm = 1.0</code>) sur les paramètres du Transformer afin de stabiliser la rétropropagation et prévenir le phénomène d'explosion du gradient.
+            </p>
+        </div>
+
+        <div class="pipeline-arrow">→</div>
+
+        <div class="pipeline-step">
+            <h4>Ajustement adaptatif</h4>
+            <p>
+                Intégration du scheduler <strong>ReduceLROnPlateau</strong>. Il réduit le learning rate par un facteur 0.5 (<strong>3e-4 → 1.5e-4</strong>) si la perte de validation (<i>val loss</i>) ne décroit plus après une patience de 5 epochs.
+            </p>
+        </div>
+
+        <div class="pipeline-arrow">→</div>
+
+        <div class="pipeline-step">
+            <h4>Sélection Finale</h4>
+            <p>
+                Suivi des performances et arrêt précoce via <strong>early stopping</strong>, programmé pour interrompre l'entraînement après <strong>12 epochs consécutives</strong> sans amélioration de la validation accuracy.
+            </p>
+        </div>
+
+    </div>
+
+    <!-- RÉSULTATS -->
+    <div class="technical-box">
+
+        <h4>Résultats expérimentaux détaillés</h4>
+
+        <div class="technical-grid">
+
+            <div class="tech-item">
+                <span class="tech-title">Accuracy finale (test)</span>
+                <span>48.0%</span>
+            </div>
+
+            <div class="tech-item">
+                <span class="tech-title">Validation accuracy</span>
+                <span>54.0% (meilleure epoch)</span>
+            </div>
+
+            <div class="tech-item">
+                <span class="tech-title">Validation loss</span>
+                <span>0.6932</span>
+            </div>
+
+            <div class="tech-item">
+                <span class="tech-title">Test loss</span>
+                <span>0.6951</span>
+            </div>
+
+            <div class="tech-item">
+                <span class="tech-title">F1-score SAT</span>
+                <span>0.268</span>
+            </div>
+
+            <div class="tech-item">
+                <span class="tech-title">F1-score UNSAT</span>
+                <span>0.597</span>
+            </div>
+
+            <div class="tech-item">
+                <span class="tech-title">Precision SAT / UNSAT</span>
+                <span>0.473 / 0.485</span>
+            </div>
+
+            <div class="tech-item">
+                <span class="tech-title">Recall SAT (Sensibilité)</span>
+                <span>0.186</span>
+            </div>
+
+            <div class="tech-item">
+                <span class="tech-title">Recall UNSAT (Spécificité)</span>
+                <span>0.774</span>
+            </div>
+
+            <div class="tech-item">
+                <span class="tech-title">Probabilité moyenne SAT</span>
+                <span>≈ 0.499</span>
+            </div>
+
+            <div class="tech-item">
+                <span class="tech-title">Baseline de référence</span>
+                <span>52.5% (Classifieur majoritaire)</span>
+            </div>
+
+            <div class="tech-item">
+                <span class="tech-title">Convergence d'apprentissage</span>
+                <span>Atteinte à l'epoch 18</span>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+<!-- ===================================================== -->
+<!-- 4. RÉSULTATS, SYNTHÈSE & PERSPECTIVES                 -->
+<!-- ===================================================== -->
+<section class="card card-blue">
+    <div class="section-header">
+        <div class="section-number">4</div>
+        <div>
+            <h3>Résultats, Synthèse et Perspectives</h3>
+        </div>
+    </div>
+
+    <!-- GRILLE DE MISE EN PAGE DU POSTER -->
+    <div class="results-layout">
+        
+        <!-- COLONNE GAUCHE : ANALYSE ET SYNTHÈSE EFFECTUÉE -->
+        <div class="results-col">
+
+            <div class="technical-box">
+                <h4>Analyse des résultats</h4>
+                <p>
+                    Au seuil de transition critique, le modèle échoue en prédisant au hasard (probabilité de 0.5). Cependant, ses cartes d'attention montrent qu'il détecte des liens cachés entre variables et clauses, prouvant qu'il commence à en comprendre la logique.
+                </p>
+            </div>
+
+            <!-- SYNTHÈSE DU STAGE -->
+            <div class="technical-box">
+                <h4>Synthèse des travaux réalisés</h4>
+                <ul class="custom-list">
+                    <li>
+                        <strong>Architecture :</strong> Création d'un Transformer Encoder adapté aux clauses logiques.
+                    </li>
+                    <li>
+                        <strong>Pipeline (Pytorch):Gestion des données CNF, du padding et du calcul de la perte (BCE).
+                    </li>
+                    <li>
+                        <strong>Étude Comparative :</strong> Exploration préliminaire des architectures alternatives, notamment les systèmes multi-agents (SMA).
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- COLONNE DROITE : LE BILAN SCIENTIFIQUE ET L'AVENIR -->
+        <div class="results-col">
+
+            <!-- CONCLUSION GENERALE -->
+            <div class="technical-box">
+                <h4>Conclusion</h4>
+                <p>
+                    Ce projet de recherche a permis de tester rigoureusement la capacité des architectures Transformer pures à appréhender la logique propositionnelle stricte. Les limites observées mettent en lumière le fossé existant entre les capacités de généralisation statistique des réseaux de neurones et la rigueur combinatoire requise par les problèmes NP-complets.
+                </p>
+                <p>
+                    L'apport majeur de ce travail ne réside pas dans la performance brute de classification, mais dans la validation d'une méthodologie expérimentale et la mise en évidence des limites de l'attention standard. Ces conclusions confirment l'importance de s'orienter vers l'<strong>intelligence artificielle neuro-symbolique</strong>, capable de marier l'apprentissage statistique et le raisonnement logique.
+                </p>
+            </div>
+
+            <!-- PERSPECTIVES DE RECHERCHE -->
+            <div class="technical-box">
+                <h4>Perspectives et Ouvertures</h4>
+                <ul class="custom-list">
+                    <li>
+                        <strong>Réseaux sur Graphes (GNN) :</strong> Remplacer ou coupler l'encodeur avec un GNN (graphe biparti variables-clauses) afin d'injecter un biais inductif fort sur la topologie de la formule.
+                    </li>
+                    <li>
+                        <strong>Hybridation Symblique (CDCL) :</strong> Concevoir un modèle hybride où le Transformer agit comme une heuristique de choix de branchement pour guider un solveur SAT traditionnel.
+                    </li>
+                    <li>
+                        <strong>Systèmes Multi-Agents (SMA) :</strong> Développer un protocole coopératif où des agents neuronaux guident localement l'exploration de l'espace des solutions.
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+</section>
