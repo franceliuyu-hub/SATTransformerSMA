@@ -237,7 +237,7 @@ body{
 }
  
 .result-card small{
-    font-size: 20px;
+    font-size: 26px;
     color: #6b7280;
     line-height: 1.5;
 }
@@ -518,7 +518,7 @@ body{
 }
 
 .technical-box h4{
-    font-size: 26px;
+    font-size: 28px;
     font-weight: 800;
     color: #1d4ed8;
     margin-bottom: 20px;
@@ -640,7 +640,7 @@ strong{
 }
 
 .custom-list li{
-    font-size: 25px;
+    font-size: 30px;
     line-height: 1.9;
     margin-bottom: 18px;
     color: #1f2937;
