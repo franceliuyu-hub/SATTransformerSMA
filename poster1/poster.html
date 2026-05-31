@@ -5,14 +5,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Poster SAT Transformer</title>
-
 <link rel="stylesheet" href="style.css">
-
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
 <div class="poster">
 
     <!-- ===================================================== -->
@@ -341,7 +338,7 @@
 
         <div class="result-card">
             <h2>30</h2>
-            <p>Epochs maximum</p>
+            <p>Époques maximum</p>
             <small>Contrôle par Early Stopping</small>
         </div>
 
@@ -394,74 +391,58 @@
 
     <!-- RÉSULTATS -->
     <div class="technical-box">
-
         <h4>Résultats expérimentaux détaillés</h4>
-
         <div class="technical-grid">
-
             <div class="tech-item">
                 <span class="tech-title">Accuracy finale (test)</span>
                 <span>48.0%</span>
             </div>
-
             <div class="tech-item">
                 <span class="tech-title">Validation accuracy</span>
                 <span>54.0% (meilleure epoch)</span>
             </div>
-
             <div class="tech-item">
                 <span class="tech-title">Validation loss</span>
                 <span>0.6932</span>
             </div>
-
             <div class="tech-item">
                 <span class="tech-title">Test loss</span>
                 <span>0.6951</span>
             </div>
-
             <div class="tech-item">
                 <span class="tech-title">F1-score SAT</span>
                 <span>0.268</span>
             </div>
-
             <div class="tech-item">
                 <span class="tech-title">F1-score UNSAT</span>
                 <span>0.597</span>
             </div>
-
             <div class="tech-item">
                 <span class="tech-title">Precision SAT / UNSAT</span>
                 <span>0.473 / 0.485</span>
             </div>
-
             <div class="tech-item">
                 <span class="tech-title">Recall SAT (Sensibilité)</span>
                 <span>0.186</span>
             </div>
-
             <div class="tech-item">
                 <span class="tech-title">Recall UNSAT (Spécificité)</span>
                 <span>0.774</span>
             </div>
-
             <div class="tech-item">
                 <span class="tech-title">Probabilité moyenne SAT</span>
                 <span>≈ 0.499</span>
             </div>
-
             <div class="tech-item">
                 <span class="tech-title">Baseline de référence</span>
                 <span>52.5% (Classifieur majoritaire)</span>
             </div>
-
             <div class="tech-item">
                 <span class="tech-title">Convergence d'apprentissage</span>
                 <span>Atteinte à l'epoch 18</span>
             </div>
-
         </div>
     </div>
-
 </section>
 
 <!-- ===================================================== -->
@@ -477,17 +458,14 @@
 
     <!-- GRILLE DE MISE EN PAGE DU POSTER -->
     <div class="results-layout">
-        
         <!-- COLONNE GAUCHE : ANALYSE ET SYNTHÈSE EFFECTUÉE -->
         <div class="results-col">
-
             <div class="technical-box">
                 <h4>Analyse des résultats</h4>
                 <p>
                     Au seuil de transition critique, le modèle échoue en prédisant au hasard (probabilité de 0.5). Cependant, ses cartes d'attention montrent qu'il détecte des liens cachés entre variables et clauses, prouvant qu'il commence à en comprendre la logique.
                 </p>
             </div>
-
             <!-- SYNTHÈSE DU STAGE -->
             <div class="technical-box">
                 <h4>Synthèse des travaux réalisés</h4>
@@ -503,7 +481,6 @@
                     </li>
                 </ul>
             </div>
-
         </div>
 
         <!-- COLONNE DROITE : LE BILAN SCIENTIFIQUE ET L'AVENIR -->
@@ -530,13 +507,8 @@
                     <li>
                         <strong>Hybridation Symblique (CDCL) :</strong> Concevoir un modèle hybride où le Transformer agit comme une heuristique de choix de branchement pour guider un solveur SAT traditionnel.
                     </li>
-                    <li>
-                        <strong>Systèmes Multi-Agents (SMA) :</strong> Développer un protocole coopératif où des agents neuronaux guident localement l'exploration de l'espace des solutions.
-                    </li>
                 </ul>
             </div>
-
         </div>
-
     </div>
 </section>
